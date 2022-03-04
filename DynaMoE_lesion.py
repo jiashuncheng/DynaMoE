@@ -1365,7 +1365,8 @@ for i in range(NUMBER_OF_WORKERS):
 
 #Tell what to do with network - save, restore, train, test------------------------------------------------------------------
 #saver
-filerootpath = "/home/outputfiles/"
+# filerootpath = "/home/outputfiles/"
+filerootpath ="C:/code/Neuromodulator/DynaMoE"
 saver = tf.train.Saver()
 dosave = False #set to True to save; False to not save
 savepath = filerootpath+"models/savedmodel.ckpt"
